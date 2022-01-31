@@ -1,3 +1,3 @@
-# MetaFusionBlock
+# Hyperparametric Meta Fusion Block
 
-We will made our source code public in some time after the acceptance of research work. Please keep checking the repository.
+The code files are currently private as the corresponding research paper is under review in ICPR'22. They will be made publically available soon after the paper is published/accepted for publication.
