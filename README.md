@@ -1,6 +1,6 @@
 # Hyperparametric Meta Fusion Block
 
-The code files are currently private as the corresponding research paper is under review in ICPR'22. They will be made publically available soon after the paper is published/accepted for publication.
+The code files are currently private since our work is under review in ICPR'22. They will be made publically available soon after the paper is published/accepted for publication.
 
 <!-- Towards Improved Skin Lesion Classification using Metadata Supervision -->
 
@@ -15,12 +15,7 @@ Anshul Pundhir, Saurabh Dadhich, Ananya Agarwal, and [Balasubramanian Raman](htt
 <!--![Overview of Proposed Architecture](architecture.jpg)-->
 <img src="architecture.jpg" width="90%" align="middle">
 
-<!---
-If you use this code in your published research, please consider citing:
-```text
-@inproceedings{}
-```
---->
+
 
 Setup and Dependencies
 ----------------------
@@ -32,3 +27,9 @@ pip install -r Requirements.txt
 3. Download the [PAD-UFES-20 dataset] and keep in `data` folder.
 4. Rest of the data files are already provided in the	repository.
 
+<!---
+If you use this code in your published research, please consider citing:
+```text
+@inproceedings{}
+```
+--->
