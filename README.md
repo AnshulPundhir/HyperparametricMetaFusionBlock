@@ -8,7 +8,7 @@ The code files are currently private as the corresponding research paper is unde
 The manuscript is under review (ICPR 2022), its complete implementation details, full-text and codes will be shared after publication.<br>
 **[Towards Improved Skin Lesion Classification using Metadata Supervision]**<br>
 <!-- [Puneet Kumar](https://puneet-kr.github.io/), Vedanti Khokher, Yukti Gupta, and [Balasubramanian Raman](http://faculty.iitr.ac.in/~balarfma/)   -->
-[Anshul Pundhir], Saurabh Dadhich, Ananya Agarwal, and [Balasubramanian Raman](http://faculty.iitr.ac.in/~balarfma/)  
+Anshul Pundhir, Saurabh Dadhich, Ananya Agarwal, and [Balasubramanian Raman](http://faculty.iitr.ac.in/~balarfma/)  
 
 
 
