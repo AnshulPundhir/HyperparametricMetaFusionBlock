@@ -1,0 +1,9 @@
+Google Drive link
+1. DenseNet
+2. EfficientNet
+3. MobileNet
+4. ResNet
+5. VGG13
+
+weights:	
+https://drive.google.com/drive/folders/18rhNmoXDhtHu1Gr-0pgsj-aoGSxgyq5I?usp=sharing
