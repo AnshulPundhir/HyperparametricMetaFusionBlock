@@ -1,0 +1,11 @@
+scikit-learn
+imgaug
+pandas
+pillow
+torchsummary
+torch
+torchvision
+datetime
+matplotlib
+scipy
+numpy
