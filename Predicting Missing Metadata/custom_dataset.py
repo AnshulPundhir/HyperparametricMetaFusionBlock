@@ -45,17 +45,3 @@ class metadataset(Dataset):
         label_freq= np.array(self.Y_metadata[self.Y_labels_column].value_counts().sort_index(ascending= True))
         weights= 1/label_freq
         return weights
-        
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
