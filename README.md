@@ -1,6 +1,6 @@
 # Hyperparametric Meta Fusion Block
 
-The code files are currently private since our work is under review in ICPR'22. They will be made publically available soon after the paper is published/accepted for publication.
+The code files are currently private since our work is under review in ICPR'22. They will be made publicly available soon after the paper is published/accepted for publication.
 
 <!-- Towards Improved Skin Lesion Classification using Metadata Supervision -->
 
