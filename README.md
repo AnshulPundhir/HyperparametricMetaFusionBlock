@@ -32,7 +32,7 @@ Note- regarding prediction of missing metadata in PAD-UFES 20 dataset
 1. In the Missing Metadata Prediction directory, the CSV file added contains the entire metadata with the values we have predicted; it does not contain any missing or unknwown data. 
 2. The 0 values represent FALSE, and 1 represents TRUE in Boolean value columns. 
 3. The 0 values represent FEMALE, and 1 represents MALE in the gender column.
-4. The feature 'biopsed' jsut provides general information about whether the diagnosis of the lesion sample had been cofirmed by a biopsy or not, hence we did not use it for predicting missing metadata, or while finally training the end-to-end CNN + Hyperparametric-Meta-Fusion Block pipeline. 
+4. The feature 'biopsed' jsut provides general information regarding whether the diagnosis of the lesion sample had been confirmed by a biopsy or not, hence we have not used it as a fetaure for predicting missing metadata, nor while finally training the end-to-end CNN + Hyperparametric-Meta-Fusion Block pipeline. 
 
 <!---
 If you use this code in your published research, please consider citing:
