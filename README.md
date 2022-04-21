@@ -27,6 +27,12 @@ pip install -r Requirements.txt
 3. Download the [PAD-UFES-20 dataset] and keep in `data` folder.
 4. Rest of the data files are already provided in the	repository.
 
+Note- regarding prediction of missing metadata in PAD-UFES 20 dataset
+----------------------
+1. In the Missing Metadata Prediction directory, the CSV file added contains the entire metadata with the values we have predicted; it does not contain any missing or unknwown data. 
+2. The 0 values represent FALSE, and 1 represents TRUE in Boolean value columns. 
+3. The 0 values represent FEMALE, and 1 represents MALE in the gender column. 
+
 <!---
 If you use this code in your published research, please consider citing:
 ```text
