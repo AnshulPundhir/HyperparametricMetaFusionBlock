@@ -361,8 +361,14 @@ if __name__ == "__main__":
     test_dataset = meta_img_dataset_test(test_imgs_path, metadata_test_norm_encoded, test_labels, test_transform)
     test_loader = DataLoader(dataset = test_dataset, batch_size = args.batch_size, shuffle = True, num_workers = 20)
 
+    # weighted cross-entropy loss function
+    ser_lab_freq = train_csv_folder.groupby("diagnostic")["img_id"].count() 
+    _labels_name = ser_lab_freq.index.values 
+    _freq = ser_lab_freq.values
+    _weights = (_freq.sum() / _freq).round(3) 
+    print('ser_lab_freq:    ',ser_lab_freq)
     # specify the loss function
-    loss_func = torch.nn.CrossEntropyLoss()
+    loss_func = torch.nn.CrossEntropyLoss(weight=torch.Tensor(_weights).cuda())
     
     # specify the model
     if _model_name == 'densenet':
